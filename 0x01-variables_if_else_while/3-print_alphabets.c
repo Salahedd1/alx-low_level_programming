@@ -8,7 +8,6 @@
  *
 */
 
-
 int main(void)
 {
 	int a;
@@ -19,13 +18,13 @@ int main(void)
 	b = 'A';
 	while (a <= 'z')
 	{
-                putchar(a);
-                a++;
+		putchar(a);
+		a++;
 	}
 	while (b <= 'Z')
 	{
-                putchar(b);
-                b++;
+		putchar(b);
+		b++;
 	}
 	putchar('\n');
 	return (0);
