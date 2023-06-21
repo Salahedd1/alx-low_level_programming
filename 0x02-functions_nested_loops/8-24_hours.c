@@ -1,12 +1,10 @@
 #include "main.h"
 
-
 /**
  *jack_bauer - starting Point
  *
  *Return : NADA
 */
-
 
 void	jack_bauer(void)
 {
@@ -14,7 +12,6 @@ void	jack_bauer(void)
 	int b;
 	int c;
 	int d;
-
 
 	a = 0;
 	c = 0;
@@ -24,7 +21,7 @@ void	jack_bauer(void)
 		b = 0;
 		while (b <= 9)
 		{
-				if (a == 2 && b == 4)
+			if (a == 2 && b == 4)
 				return;
 			c = 0;
 			while (c < 6)
@@ -34,3 +31,11 @@ void	jack_bauer(void)
 				{
 					printf("%d%d:%d%d\n", a, b, c, d);
 					d++;
+				}
+				c++;
+			}
+			b++;
+		}
+		a++;
+	}
+}
