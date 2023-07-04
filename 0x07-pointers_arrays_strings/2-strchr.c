@@ -1,4 +1,7 @@
-trchr - get string if c exist
+#include "main.h"
+
+/**
+ *_strchr - get string if c exist
  *@s: main string
  *@c: character to find
  *Return: a string if c exist
