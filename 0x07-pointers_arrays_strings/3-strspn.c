@@ -1,4 +1,7 @@
-trspn - l of sub-text
+#include "main.h"
+
+/**
+ *_strspn - l of sub-text
  *@s: the main string
  *@accept: man
  *Return: return an int
